@@ -42,6 +42,7 @@ function polybius(input, encode = true) {
             }
         }
     } else {
+        //if decoding a message
         const input2 = input.split(' '); //if secret message is more than 1 word, split into individual words
         let newArr = []; //decoded array
 

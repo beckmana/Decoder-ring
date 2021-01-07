@@ -1,4 +1,5 @@
 function substitution(input, alphabet, encode = true) {
+    if (!alphabet) return false;
     if (alphabet.length < 26) return false;
     let realAlpha = "abcdefghijklmnopqrstuvwxyz";
     const alphaKey = {}; //make object key to encode and decode
